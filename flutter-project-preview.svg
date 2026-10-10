@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" role="img" aria-labelledby="title desc">
+  <title id="title">Flutter project preview</title>
+  <desc id="desc">A simple blue mobile app mockup with a list of items and an add button.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#102b50"/>
+      <stop offset="55%" stop-color="#1d4d82"/>
+      <stop offset="100%" stop-color="#2b5bb7"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#eaf5ff"/>
+      <stop offset="100%" stop-color="#cfe8ff"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="18" stdDeviation="20" flood-color="#04111f" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="600" fill="url(#bg)"/>
+  <circle cx="110" cy="95" r="120" fill="#59b4ff" opacity="0.12"/>
+  <circle cx="1115" cy="515" r="160" fill="#9d7cff" opacity="0.12"/>
+
+  <g transform="translate(135 95)">
+    <text x="0" y="80" fill="#ffffff" font-family="Arial, sans-serif" font-size="66" font-weight="700">Flutter Project</text>
+    <text x="2" y="132" fill="#cfe8ff" font-family="Arial, sans-serif" font-size="28">Simple mobile app interface</text>
+    <rect x="0" y="180" width="360" height="12" rx="6" fill="#86cbff" opacity="0.9"/>
+    <rect x="0" y="215" width="285" height="12" rx="6" fill="#86cbff" opacity="0.55"/>
+    <rect x="0" y="250" width="320" height="12" rx="6" fill="#86cbff" opacity="0.4"/>
+  </g>
+
+  <g transform="translate(760 58)" filter="url(#shadow)">
+    <rect x="0" y="0" width="300" height="490" rx="42" fill="#0a1830"/>
+    <rect x="17" y="17" width="266" height="456" rx="30" fill="url(#screen)"/>
+    <rect x="104" y="7" width="92" height="10" rx="5" fill="#22334d"/>
+
+    <rect x="35" y="48" width="230" height="52" rx="14" fill="#2d68c4"/>
+    <text x="58" y="82" fill="#ffffff" font-family="Arial, sans-serif" font-size="22" font-weight="700">My Items</text>
+
+    <g fill="#ffffff" stroke="#b7d8f8" stroke-width="2">
+      <rect x="35" y="124" width="230" height="62" rx="12"/>
+      <rect x="35" y="202" width="230" height="62" rx="12"/>
+      <rect x="35" y="280" width="230" height="62" rx="12"/>
+    </g>
+
+    <g fill="#52719b">
+      <circle cx="64" cy="155" r="10"/>
+      <circle cx="64" cy="233" r="10"/>
+      <circle cx="64" cy="311" r="10"/>
+    </g>
+
+    <g fill="#315b89">
+      <rect x="88" y="145" width="132" height="8" rx="4"/>
+      <rect x="88" y="161" width="96" height="7" rx="3.5" opacity="0.55"/>
+      <rect x="88" y="223" width="122" height="8" rx="4"/>
+      <rect x="88" y="239" width="88" height="7" rx="3.5" opacity="0.55"/>
+      <rect x="88" y="301" width="140" height="8" rx="4"/>
+      <rect x="88" y="317" width="104" height="7" rx="3.5" opacity="0.55"/>
+    </g>
+
+    <circle cx="226" cy="404" r="34" fill="#2d68c4"/>
+    <rect x="211" y="400" width="30" height="8" rx="4" fill="#ffffff"/>
+    <rect x="222" y="389" width="8" height="30" rx="4" fill="#ffffff"/>
+  </g>
+</svg>
